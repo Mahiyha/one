@@ -5,7 +5,8 @@ body {
 form {
   width: 400px;
   margin: 0 auto;
-  padding: 20px;
+ 
+  padding: 100px;
   background-color: #f5f5f5;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -288,6 +289,14 @@ input[type="radio"]:hover {
   margin-right: 10px;
 }
 
+.one{
+  margin-top:20px;
+}
 
+.radio-label
+{
+  margin-right : -0px;
+  
+}
 
 /* ... (rest of the CSS styles) */

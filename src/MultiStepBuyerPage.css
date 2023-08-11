@@ -1,0 +1,33 @@
+.multistep-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .step {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0; /* Light gray background */
+    margin-right: 10px;
+    color: #333;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .step.accomplished {
+    background-color : #007bff; /* Gold yellow background for completed steps */
+    color: #fff; /* White text color */
+  }
+  
+  .step.current {
+    background-color: #f0f0f0; /* Light gray background for current step */
+    color: #333; /* Default text color */
+  }
+  
+  .step.incomplete {
+    background-color: #f0f0f0; /* Light gray background for incomplete steps */
+    color: #333; /* Default text color */
+  }
+  

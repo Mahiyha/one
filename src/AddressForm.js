@@ -1,10 +1,12 @@
 import React from 'react';
-
+import './index.css'
 const AddressForm = ({ formData, handleChange, nextStep, prevStep }) => {
   const { fullName, mobileNumber, flatHouseNo, building, company, apartment, landmark, country, state, town, city } = formData;
 
   return (
-    <div>
+    <div class = 'one'>
+      <h1> </h1>
+      <h1></h1>
       <h2>Address Details</h2>
       <div className="form-group">
         <label>Full Name:</label>
@@ -13,6 +15,7 @@ const AddressForm = ({ formData, handleChange, nextStep, prevStep }) => {
           name="fullName"
           value={fullName}
           onChange={handleChange}
+          placeholder='Enter your Full Name '
           required
         />
       </div>
@@ -24,6 +27,7 @@ const AddressForm = ({ formData, handleChange, nextStep, prevStep }) => {
           value={mobileNumber}
           onChange={handleChange}
           pattern="[0-9]{10}"
+          placeholder='Enter your mobile Number'
           required
         />
       </div>
